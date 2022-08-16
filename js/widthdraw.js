@@ -1,4 +1,4 @@
-// 1. get withdraw button
+// 1. get withdraw button to alternate the main wokr
 document.getElementById('btn-withdraw').addEventListener('click', function(){
     // get withdrawal field and convert them into string.
     const withdrawalField = document.getElementById('withdraw');
