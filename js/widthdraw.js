@@ -7,7 +7,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function(){
 
      // clear withdrawal field source value.
      withdrawalField.value = '';
-
+    // check whether number or something and terminate the code therer
     if(isNaN(withdrawAmount)){
         alert("please enter number");
         return;
