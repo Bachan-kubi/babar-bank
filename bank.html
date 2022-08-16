@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank inside</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section>
+        <h1 class="text-5xl text-center mt-5">Lets Get 
+            <span class="font-semibold text-cyan-500">ASOL BANK</span></h1>
+    </section>
+    <section class="mt-5">
+        <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto">
+            <div class="bg-yellow-500 p-8 rounded-xl">
+                <h3 class="font-bold text-3xl mb-2">Deposit</h3>
+                <h4" class="font-bold text-3xl">$<span id="deposit-total">00</span></h4>
+            </div>
+            <div class="bg-red-500 p-8 rounded-xl">
+                <h3 class="font-bold text-3xl mb-2">Withdrawal</h3>
+                <h4 class="font-bold text-3xl">$<span id="withdrawal">00</span></h4>
+            </div>
+            <div class="bg-sky-500 p-8 rounded-xl">
+                <h3 class="font-bold text-3xl mb-2">Total Balance</h3>
+                <h4 class="font-bold text-3xl">$<span id="balance-total">1200</span></h4>
+            </div>
+        </div>
+    </section>
+    <section class="mt-4">
+        <div class="grid grid-cols-2 gap-6 w-9/12 mx-auto mt-5">
+            <div class="bg-sky-500 p-8 rounded-xl">
+                <h3 class="font-bold text-3xl mb-2">Please Deposit</h3>
+                <input type="text" id="deposit-amount" class="block mb-4 w-9/12">
+                <button id="btn-deposit" class="block bg-gray-500 rounded px-4 py-2 text-white hover:bg-violet-600">Please Deposit</button>
+            </div>
+            <div class="bg-yellow-500 p-8 rounded-xl">
+                <h3 class="font-bold text-3xl mb-2">Please Withdraw</h3>
+                <input type="text" id="withdraw" class="block mb-4 w-9/12">
+                <button id="btn-withdraw" class="block bg-gray-500 rounded px-4 py-2 text-white hover:bg-violet-600">Please Withdraw</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/deposit.js"></script>
+    <script src="./js/widthdraw.js"></script>
+</body>
+</html>
