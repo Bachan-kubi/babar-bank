@@ -5,7 +5,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function(){
     let withdrawAmountString = withdrawalField.value;
     let withdrawAmount = parseFloat(withdrawAmountString);
 
-     // clear withdrawal field
+     // clear withdrawal field source value.
      withdrawalField.value = '';
 
     if(isNaN(withdrawAmount)){
